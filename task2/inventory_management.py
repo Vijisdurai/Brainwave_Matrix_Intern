@@ -192,7 +192,7 @@ def login_window():
 
     login_win = ttk.Window(themename="darkly")
     login_win.title("Login")
-
+    login_win.geometry("900x800")
     ttk.Label(login_win, text="Username:").grid(row=0, column=0, padx=5, pady=5)
     entry_username = ttk.Entry(login_win)
     entry_username.grid(row=0, column=1, padx=5, pady=5)
